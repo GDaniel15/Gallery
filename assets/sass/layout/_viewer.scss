@@ -205,7 +205,7 @@
 				.toggle {
 					@include vendor('transition', 'opacity #{_duration(layout)} ease');
 					background-image: url('images/open.svg');
-					opacity: 0;
+					opacity: 1;
 
 					@if _misc(main-side) == 'left' {
 						left: 0;
